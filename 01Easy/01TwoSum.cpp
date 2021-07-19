@@ -46,6 +46,7 @@ int main()
 
 /*
 LOGIC:
+______
 Let array be {15, 11, 7, 2}
 Hash map {(0,0)}
 -------------------------------
@@ -61,7 +62,7 @@ Hash map {(0,0)}
     iter = find(9 - 7 = 2)    2 doesnt exist in hash map and hence iter = end;
     if (end != end) false
     hash map[7] = 2        HM {(15,0), (11,1), (7,2)}
-3. i = 2
+4. i = 2
     iter = find(9 - 2 = 7)    7 exists in the hash map at hash map[index = 3] and hence iter = 7
     if (7 != end) true
     indices = {2, 3}
